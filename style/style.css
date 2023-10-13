@@ -39,16 +39,63 @@ body{
 .header_a{
     font-size: 18px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
 }
 .header_a:hover{
     color: #557E74;
 }
 .menu{
-    color: #fff;
+    background-color: #DBE283;
     height: 155px;
     width: 1920px;
     max-width: 100%;
     min-width: 100%;
     z-index: 1;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__item{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+}
+.menu__h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 300;
+    color: #000;
+}
+.menu__img{
+    transition: 0.5s;
+}
+.menu__a:hover .menu__img{
+    transform: scale(0.8)
+}
+.slider{
+    max-width: 100%;
+    width: 1920px;
+    height: 528px;
+}
+.slider__img{
+    max-width: 100%;
+    width: 1920px;
+    height: 470px;
+}
+.suchi__container{
+    width: 1920px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.suchi{
+    width: 1140px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    float: left;
+    display: flex;
 }
