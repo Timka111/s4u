@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    background: #1D1D1B;
+    background: #4FBCFD;
 }
 .container{
     width: 1920px;
@@ -44,8 +44,12 @@ body{
 .header_a:hover{
     color: #557E74;
 }
+.header__img{
+    width: 200px;
+    height: 70px;
+}
 .menu{
-    background-color: #DBE283;
+    background-color: #E6E904;
     height: 155px;
     width: 1920px;
     max-width: 100%;
@@ -118,7 +122,7 @@ body{
     margin-right: 15px;
 }
 .suchi__item:hover{
-    box-shadow: #5ABBA4 0 0 10px;
+    box-shadow: #E6E904 0 0 10px;
     transition: box-shadow 0.1s;
 }
 .suchi__img{
@@ -172,13 +176,13 @@ body{
     font-size: 15px;
     font-weight: 600;
     padding: 10px 40px;
-    background: #DBE283;
+    background: #E6E904;
     border-radius: 26px;
     cursor: pointer;
     transition: color 0.3s;
 }
 .busket-such:hover{
-    background: #30696A;
+    background: #F30000;
     color: #fff;
     transition: background 0.3s ease;
 }
@@ -197,7 +201,7 @@ body{
     justify-content: center;
 }
 .vibor__but{
-    border: 3px solid #30696A;
+    border: 3px solid #F30000;
     background: 0;
     font-size: 16px;
     color: #fff;
@@ -217,4 +221,41 @@ body{
 }
 .vibor__but:hover{
     text-shadow: 0.25px 0.1px 0px #fff, -0.25px -0.1px 0px #fff;
+}
+.active{
+    background: #30696A;
+    font-weight: 600;
+}
+.hide{
+    display: none;
+}
+.dostav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    max-width: 100%;
+    margin-top: 60px;
+}
+.dostav__container{
+    width: 1120px;
+    max-width: 100%;
+    min-height: 400px;
+    background: #E6E904;
+    border-radius: 26px;
+    align-items: center;
+}
+.dostav__h2{
+    text-align: center;
+    font-size: 45px;
+    color: #000;
+    margin-top: 40px;
+}
+.dostav__p{
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 25px;
 }
